@@ -20,6 +20,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SelectionPageComponent } from './pages/selection-page/selection-page.component';
 import { OrderPageComponent } from './pages/order-page/order-page.component';
 import { ThankYouPageComponent } from './pages/thank-you-page/thank-you-page.component';
+import { MerchantPageComponent } from './pages/merchant-page/merchant-page.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -27,7 +28,8 @@ const routes: Routes = [
   { path: 'cafe', component: CafePageComponent },
   { path: 'selection', component: SelectionPageComponent },
   { path: 'order', component: OrderPageComponent },
-  { path: 'thankyou', component: ThankYouPageComponent }
+  { path: 'thankyou', component: ThankYouPageComponent },
+  { path: 'merchant', component: MerchantPageComponent }
  ];
 
 @NgModule({
@@ -38,7 +40,8 @@ const routes: Routes = [
     CafePageComponent,
     SelectionPageComponent,
     OrderPageComponent,
-    ThankYouPageComponent
+    ThankYouPageComponent,
+    MerchantPageComponent
   ],
   imports: [
     BrowserModule,

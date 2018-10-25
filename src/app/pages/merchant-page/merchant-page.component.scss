@@ -1,0 +1,959 @@
+.merchantscreen {
+  width: 100%;
+  min-width: 1024px;
+  height: 100vh;
+  min-height: 768px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 1.0)
+}
+
+a {
+  text-decoration: none
+}
+
+div {
+  -webkit-text-size-adjust: none
+}
+
+div {
+  -webkit-text-size-adjust: none
+}
+
+.merchantscreen .bitmap {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 126px;
+  left: 460px;
+  top: 56px;
+  margin: 0;
+  height: 37px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .line {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 1023px;
+  left: -1px;
+  top: 183px;
+  margin: 0;
+  height: 2px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .rectangle6 {
+  background-color: rgba(140, 198, 66, 1.0);
+  position: absolute;
+  width: 79px;
+  left: 399px;
+  top: 180px;
+  margin: 0;
+  height: 4px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .orders {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 118px;
+  left: 379px;
+  top: 140px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 26.0px;
+  color: rgba(26, 33, 37, 1.0);
+  text-align: center;
+  line-height: 24.0px
+}
+
+.merchantscreen .datatablerowrowselected {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 935px;
+  left: 36px;
+  top: 263px;
+  margin: 0;
+  height: 48px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .datatablerowrowselected .bgrow {
+  background-color: rgba(245, 245, 245, 1.0);
+  position: relative;
+  width: 935px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 48px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .completed {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 141px;
+  left: 519px;
+  top: 140px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue-Light', Helvetica, Arial, serif;
+  font-size: 26.0px;
+  color: rgba(26, 33, 37, 1.0);
+  text-align: center;
+  line-height: 24.0px
+}
+
+.merchantscreen .latte {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 361px;
+  top: 277px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .reg {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 252px;
+  top: 277px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a2568 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 117px;
+  top: 277px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .soy {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 491px;
+  top: 277px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a2sugar {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 621px;
+  top: 277px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .type {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: auto;
+  left: 361px;
+  top: 228px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  letter-spacing: .23px;
+  line-height: 16.0px
+}
+
+.merchantscreen .size {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: auto;
+  left: 252px;
+  top: 228px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  letter-spacing: .23px;
+  line-height: 16.0px
+}
+
+.merchantscreen .orderno {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: auto;
+  left: 117px;
+  top: 228px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  letter-spacing: .23px;
+  line-height: 16.0px
+}
+
+.merchantscreen .other {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: auto;
+  left: 621px;
+  top: 228px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  letter-spacing: .23px;
+  line-height: 16.0px
+}
+
+.merchantscreen .milk {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: auto;
+  left: 489px;
+  top: 228px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  letter-spacing: .23px;
+  line-height: 16.0px
+}
+
+.merchantscreen .rectangle2 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  width: 19px;
+  left: 53px;
+  top: 276px;
+  margin: 0;
+  height: 19px;
+  border-style: solid;
+  border-width: 0;
+  border-color: rgba(74, 73, 74, 1.0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .page1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 10px;
+  left: 58px;
+  top: 282px;
+  margin: 0;
+  height: 9px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .latte1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 361px;
+  top: 327px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .reg1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 252px;
+  top: 327px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a25681 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 117px;
+  top: 327px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .cream {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 491px;
+  top: 327px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .label1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 39px;
+  left: 621px;
+  top: 327px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .rectangle21 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  width: 18px;
+  left: 53px;
+  top: 326px;
+  margin: 0;
+  height: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(74, 73, 74, 1.0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .line1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 935px;
+  left: 35px;
+  top: 361px;
+  margin: 0;
+  height: 2px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .longblack {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 361px;
+  top: 379px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .large {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 252px;
+  top: 379px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a7845 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 117px;
+  top: 379px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .cream1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 491px;
+  top: 379px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a1sugar {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 60px;
+  left: 621px;
+  top: 379px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .rectangle22 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  width: 18px;
+  left: 53px;
+  top: 378px;
+  margin: 0;
+  height: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(74, 73, 74, 1.0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .line2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 935px;
+  left: 35px;
+  top: 413px;
+  margin: 0;
+  height: 2px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .smoothie {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 361px;
+  top: 430px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .reg2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 252px;
+  top: 430px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a0236 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 117px;
+  top: 430px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .fruit {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 491px;
+  top: 430px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .label2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 60px;
+  left: 621px;
+  top: 430px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .rectangle23 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  width: 18px;
+  left: 53px;
+  top: 429px;
+  margin: 0;
+  height: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(74, 73, 74, 1.0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .line3 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 935px;
+  left: 35px;
+  top: 464px;
+  margin: 0;
+  height: 2px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .longblack1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 361px;
+  top: 482px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .large1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 252px;
+  top: 482px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a7133 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 117px;
+  top: 482px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .cream2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 79px;
+  left: 491px;
+  top: 482px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .a1sugar1 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 60px;
+  left: 621px;
+  top: 482px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 12.0px;
+  color: rgba(128, 128, 128, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.merchantscreen .rectangle24 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  width: 18px;
+  left: 53px;
+  top: 481px;
+  margin: 0;
+  height: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(74, 73, 74, 1.0);
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .line4 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 935px;
+  left: 35px;
+  top: 516px;
+  margin: 0;
+  height: 2px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .rectangle7 {
+  background-color: rgba(192, 235, 255, 1.0);
+  position: absolute;
+  width: 5px;
+  left: 35px;
+  top: 263px;
+  margin: 0;
+  height: 100px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .rectangle61 {
+  background-color: rgba(140, 198, 66, 1.0);
+  position: absolute;
+  width: 1024px;
+  left: 0;
+  top: 748px;
+  margin: 0;
+  height: 24px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: .95
+}
+
+.merchantscreen .page11 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 10px;
+  left: 58px;
+  top: 332px;
+  margin: 0;
+  height: 9px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .group2 {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 360px;
+  left: 351px;
+  top: 654px;
+  margin: 0;
+  height: 45px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .group2 .rectangle3 {
+  background-color: rgba(140, 198, 66, 1.0);
+  position: absolute;
+  width: 360px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 45px;
+  border-radius: 4px;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0)
+}
+
+.merchantscreen .group2 .submitandnotify {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: absolute;
+  width: 134px;
+  left: 113px;
+  top: 13px;
+  margin: 0;
+  height: auto;
+  -ms-transform: rotate(0);
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  font-family: 'HelveticaNeue', Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: rgba(255, 255, 255, 1.0);
+  text-align: justify;
+  line-height: 18.0px
+}
+
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 normal forwards;
+  animation: anima-reveal .3s ease-in-out 1 normal forwards
+}
+
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal .3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal .3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal .3s ease-in-out 1 reverse forwards
+}
+
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0
+}
+
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes anima-reveal {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
