@@ -17,11 +17,17 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CateringPageComponent } from './pages/catering-page/catering-page.component';
 import { CafePageComponent } from './pages/cafe-page/cafe-page.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SelectionPageComponent } from './pages/selection-page/selection-page.component';
+import { OrderPageComponent } from './pages/order-page/order-page.component';
+import { ThankYouPageComponent } from './pages/thank-you-page/thank-you-page.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'catering', component: CateringPageComponent },
-  { path: 'cafe', component: CafePageComponent }
+  { path: 'cafe', component: CafePageComponent },
+  { path: 'selection', component: SelectionPageComponent },
+  { path: 'order', component: OrderPageComponent },
+  { path: 'thankyou', component: ThankYouPageComponent }
  ];
 
 @NgModule({
@@ -29,7 +35,10 @@ const routes: Routes = [
     AppComponent,
     HomePageComponent,
     CateringPageComponent,
-    CafePageComponent
+    CafePageComponent,
+    SelectionPageComponent,
+    OrderPageComponent,
+    ThankYouPageComponent
   ],
   imports: [
     BrowserModule,
