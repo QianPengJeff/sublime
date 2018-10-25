@@ -1,3 +1,32 @@
+.slider-container
+{
+  overflow-x: hidden ;
+  padding: 40px;
+  height: 500px;
+  width: 414px;
+  position: absolute;
+  left: 380px;
+  top: 60px;
+
+   .slider {
+       display: flex;
+       align-items: center;
+       width: 100%;
+       width: calc(var(--n)*90%);
+
+       overflow-y: hidden;
+       height: auto;
+       max-height: auto;
+
+       img {
+        min-width: 90%; /* needed so Firefox doesn't make img shrink to fit */
+        width: 90%; /* can't take this out either as it breaks Chrome */
+        pointer-events: none;
+        margin-right: 40px;
+       }
+   }
+}
+
 .mobilehome {
     width: 100%;
     min-width: 414px;
@@ -188,7 +217,7 @@
 
   .mobilehome .group11 {
     background-color: rgba(255, 255, 255, 0.0);
-    top: 582px;
+    top: 540px;
     height: 187px;
     width: 185px;
     position: absolute;
@@ -258,7 +287,7 @@
 
   .mobilehome .group111 {
     background-color: rgba(255, 255, 255, 0.0);
-    top: 582px;
+    top: 540px;
     height: 187px;
     width: 185px;
     position: absolute;
