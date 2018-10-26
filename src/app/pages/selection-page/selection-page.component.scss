@@ -1,3 +1,43 @@
+.milk-section {
+  position: absolute;
+  right: 45px;
+  top: 484px;
+}
+
+.sugar-section {
+  position: absolute;
+  right: 45px;
+  top: 285px;
+}
+
+.sugar-radio,
+.milk-radio {
+  border: 1px #8cc642 solid;
+  border-radius: 50%;
+  display: block;
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+
+.sugar-radio-selected,
+.milk-radio-selected {
+  width: 16px;
+  height: 16px;
+  background-color: #8cc642;
+  border-radius: 50%;
+}
+
+.a1234 div {
+  position: relative;
+}
+
+.a1234 input {
+  position: absolute;
+
+}
+
 .mobilecustomiseandconfirm {
   width: 100%;
   min-width: 414px;

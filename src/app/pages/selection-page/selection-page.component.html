@@ -18,36 +18,67 @@
     <div style="width: 414px; height: 100%; position:relative; margin:auto;">
       <img class="line" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
       <img class=line1 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
-      <div class=regularlattewith2>Regular Latte with 2 sugars and Soy Milk</div>
-      <div class=latte>Latte</div>
+      <div class=regularlattewith2>{{ size }} {{ name }} with 2 sugars and Soy Milk</div>
+      <div class=latte>{{ name }}</div>
       <div class=group9>
-        <div class=a1>1</div>
+        <div class=a1>{{ quantity }}</div>
       </div>
-      <img class=oval src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval@2x.png">
-      <div class=label1>+</div>
-      <img class=oval1 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 1@2x.png">
-      <div class=group2>
-        <img class=oval7 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-        <img class=oval11 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 7@2x.png">
+      <img class=oval (click) = "SelectQuantity('add')" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval@2x.png">
+      <div class=label1 (click) = "SelectQuantity('add')">+</div>
+      <img class=oval1 (click) = "SelectQuantity('remove')" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 1@2x.png">
+      
+      <div class=label2 (click) = "SelectQuantity('remove')">-</div>
+      <div class=a250>{{ price }}</div>
+      <div class=a1234>
+        <div (click) = "SelectSugar('1')">1</div>
+        <div (click) = "SelectSugar('2')">2</div>
+        <div (click) = "SelectSugar('3')">3</div>
+        <div (click) = "SelectSugar('4')">4</div>
       </div>
-      <img class=oval2 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-      <img class=oval3 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-      <div class=group21>
-        <img class=oval7 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-        <img class=oval11 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 7@2x.png">
+      <div [ngSwitch]="sugar" class="sugar-section">
+        <div class="sugar-radio" (click) = "SelectSugar('1')">
+          <div *ngSwitchCase="1">
+              <div class="sugar-radio-selected"></div>
+          </div>
+        </div>
+        <div class="sugar-radio" (click) = "SelectSugar('2')">
+          <div *ngSwitchCase="2">
+              <div class="sugar-radio-selected"></div>
+          </div>
+        </div>
+        <div class="sugar-radio" (click) = "SelectSugar('3')">
+          <div *ngSwitchCase="3">
+              <div class="sugar-radio-selected"></div>
+          </div>
+        </div>
+        <div class="sugar-radio" (click) = "SelectSugar('4')">
+          <div *ngSwitchCase="4">
+              <div class="sugar-radio-selected"></div>
+          </div>
+        </div>
       </div>
-      <img class=oval4 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-      <img class=oval5 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-      <img class=oval6 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval 9@2x.png">
-      <div class=label2>-</div>
-      <div class=a250>$2.50</div>
-      <div class=a1234>1
-        <br />2
-        <br />3
-        <br />4</div>
-      <div class=fullcreamskimsoy>FULL CREAM
-        <br />SKIM
-        <br />SOY +$0.20</div>
+      <div class=fullcreamskimsoy>
+        <div (click) = "SelectMilk('Full Cream')">FULL CREAM</div>
+        <div (click) = "SelectMilk('Skim')">SKIM</div>
+        <div (click) = "SelectMilk('Soy')">SOY +$0.20</div>
+      </div>
+      <div [ngSwitch]="milk" class="milk-section">
+        <div class="milk-radio" (click) = "SelectMilk('Full Cream')">
+          <div *ngSwitchCase="'Full Cream'">
+            <div class="milk-radio-selected"></div>
+          </div>
+        </div>
+        <div class="milk-radio" (click) = "SelectMilk('Skim')">
+          <div *ngSwitchCase="'Skim'">
+            <div class="milk-radio-selected"></div>
+          </div>
+        </div>
+        <div class="milk-radio" (click) = "SelectMilk('Soy')">
+          <div *ngSwitchCase="'Soy'">
+            <div class="milk-radio-selected"></div>
+          </div>
+        </div>
+      </div>
       <div class=sugars>Sugars</div>
       <img class=line2 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
       <img class=line3 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
@@ -58,7 +89,7 @@
       <div id=6zDp3lX>
         <div class="group22-ZVz8 component state1" data-initial-state=state1 data-name=group22ZVz86zDp3lX>
           <div class="rectangle3 " data-name=rectangle3rfbD6zDp3lX></div>
-          <div class=confirm> Confirm </div>
+          <div class=confirm (click) = "ConfirmOrder()"> Confirm </div>
         </div>
       </div>
       <div class=rectangle6></div>

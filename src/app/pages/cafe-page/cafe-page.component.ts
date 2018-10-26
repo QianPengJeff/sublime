@@ -25,12 +25,14 @@ export class CafePageComponent implements OnInit {
     this.router.navigateByUrl('');
   }
 
-  AddToJson = (name: string, size: string) => {
+  AddToJson = (name: string, size: string, price: string) => {
     localStorage.clear();
-    localStorage.setItem('Name', JSON.stringify(name));
-    localStorage.setItem('Size', JSON.stringify(size));
+    localStorage.setItem('Name', name);
+    localStorage.setItem('Size', size);
+    localStorage.setItem('Price', price);
     console.log(localStorage.getItem('Name'));
     console.log(localStorage.getItem('Size'));
+    console.log(localStorage.getItem('Price'));
     this.router.navigateByUrl('/selection');
   }
 }
