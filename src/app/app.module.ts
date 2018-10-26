@@ -21,6 +21,7 @@ import { SelectionPageComponent } from './pages/selection-page/selection-page.co
 import { OrderPageComponent } from './pages/order-page/order-page.component';
 import { ThankYouPageComponent } from './pages/thank-you-page/thank-you-page.component';
 import { MerchantPageComponent } from './pages/merchant-page/merchant-page.component';
+import { CarouselModule } from 'ngx-bootstrap';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -52,7 +53,8 @@ const routes: Routes = [
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     NgbModule.forRoot(),
-    RouterModule.forRoot(routes, {useHash: true})
+    RouterModule.forRoot(routes, {useHash: true}),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
