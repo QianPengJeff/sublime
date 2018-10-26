@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
+import { Observable } from 'rxjs/observable';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-selection-page',
@@ -6,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./selection-page.component.scss']
 })
 export class SelectionPageComponent implements OnInit {
-  constructor() { }
+
+  orderObservable: Observable<any[]>;
+  constructor(private db: AngularFireDatabase, private router: Router) { }
 
   ngOnInit() {
   }
@@ -14,7 +19,7 @@ export class SelectionPageComponent implements OnInit {
   name = localStorage.getItem('Name');
   size = localStorage.getItem('Size');
   price = localStorage.getItem('Price');
-  sugars = "";
+  sugars = "0";
   milk = "";
   number = 1;
 
@@ -25,7 +30,7 @@ export class SelectionPageComponent implements OnInit {
     if(operation == "remove" && this.number > 1) {
       this.number = this.number - 1;
     }
-    localStorage.setItem('Numebr', this.number.toString());
+    localStorage.setItem('Number', this.number.toString());
     console.log(localStorage.getItem('Number'));
   };
 
@@ -62,7 +67,12 @@ export class SelectionPageComponent implements OnInit {
       ],
       "orderNo": this.generateNumber(),
       "completed":"fales"
-    }
+    };
+    this.db.list('/orders').push(data);
+    console.log(data);
+    this.router.navigateByUrl('/thankyou');
   }
-  // this.db.list('/orders').push(this.order);
+  NavToCafe = () => {
+    this.router.navigateByUrl('/cafe');
+  }
 }

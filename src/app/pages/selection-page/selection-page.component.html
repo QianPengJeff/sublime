@@ -18,10 +18,10 @@
     <div style="width: 414px; height: 100%; position:relative; margin:auto;">
       <img class="line" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
       <img class=line1 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
-      <div class=regularlattewith2>{{ size }} {{ name }} with 2 sugars and Soy Milk</div>
+      <div class=regularlattewith2>{{ size }} {{ name }} with {{ sugars }} sugars and {{ milk }} Milk</div>
       <div class=latte>{{ name }}</div>
       <div class=group9>
-        <div class=a1>{{ quantity }}</div>
+        <div class=a1>{{ number }}</div>
       </div>
       <img class=oval (click) = "SelectQuantity('add')" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-oval@2x.png">
       <div class=label1 (click) = "SelectQuantity('add')">+</div>
@@ -35,7 +35,7 @@
         <div (click) = "SelectSugar('3')">3</div>
         <div (click) = "SelectSugar('4')">4</div>
       </div>
-      <div [ngSwitch]="sugar" class="sugar-section">
+      <div [ngSwitch]="sugars" class="sugar-section">
         <div class="sugar-radio" (click) = "SelectSugar('1')">
           <div *ngSwitchCase="1">
               <div class="sugar-radio-selected"></div>
@@ -84,16 +84,12 @@
       <img class=line3 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
       <div class=milk>Milk</div>
       <img class=line4 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
-      <img class=line5 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd132bf789fee000a7c18f9/img/mobile-home-line.png">
-      <div class=otheroptions>Other Options</div>
-      <div id=6zDp3lX>
-        <div class="group22-ZVz8 component state1" data-initial-state=state1 data-name=group22ZVz86zDp3lX>
-          <div class="rectangle3 " data-name=rectangle3rfbD6zDp3lX></div>
-          <div class=confirm (click) = "ConfirmOrder()"> Confirm </div>
-        </div>
+      <div class="group22-ZVz8 component state1" (click) = "ConfirmOrder()" data-initial-state=state1 data-name=group22ZVz86zDp3lX>
+        <div class="rectangle3 " (click) = "ConfirmOrder()" data-name=rectangle3rfbD6zDp3lX></div>
+        <div class="confirm" (click) = "ConfirmOrder()"> Confirm </div>
       </div>
       <div class=rectangle6></div>
-      <img class=page1 src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-page-1.png">
+      <img class=page1 (click)="NavToCafe()" src="https://anima-uploads.s3.amazonaws.com/5b57c712bb0a500009037fb3/5bd132bd789fee0009e5c451/5bd133bb789fee000a7c1906/img/mobile-customise-and-confirm-page-1.png">
       <div class=drinks>Drinks</div>
     </div>
   </div>
